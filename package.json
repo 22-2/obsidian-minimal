@@ -5,6 +5,9 @@
         "dotenv": "^10.0.0",
         "sass": "^1.83.0"
     },
+	"scripts": {
+		"build": "pnpx grunt sass:dist cssmin concat_css"
+	},
     "devDependencies": {
         "grunt": "^1.5.3",
         "grunt-concat-css": "~0.3.2",
