@@ -65,9 +65,9 @@ https://github.com/ahmadawais/shades-of-purple-vscode
 	--tx2:#6A45FD;
 	--tx3:#8A6CFD;
 
-	--ax1: var(--color-yellow);
-	--ax2: color-mix(in srgb, var(--color-yellow), #000 15%);
-	--ax3: color-mix(in srgb, var(--color-yellow), #000 30%);
+	--ax1: color-mix(in srgb, var(--color-yellow), #000 15%);
+	--ax2: color-mix(in srgb, var(--color-yellow), #000 30%);
+	--ax3: var(--color-yellow);
 
 	--blockquote-border-color: color-mix(in srgb, var(--color-yellow), #000 20%);
 	--link-color: color-mix(in srgb, var(--color-yellow), #000 30%);
@@ -103,9 +103,9 @@ https://github.com/ahmadawais/shades-of-purple-vscode
 	--tx2:#A599E9;
 	--tx3:#8175BF;
 
-	--ax1: var(--color-yellow);
-	--ax2: color-mix(in srgb, var(--color-yellow), #000 10%);
-	--ax3: color-mix(in srgb, var(--color-yellow), #000 20%);
+	--ax1: color-mix(in srgb, var(--color-yellow), #000 10%);
+	--ax2: color-mix(in srgb, var(--color-yellow), #000 20%);
+	--ax3: var(--color-yellow);
 
 	--sp1: #1E1E3F;
 
