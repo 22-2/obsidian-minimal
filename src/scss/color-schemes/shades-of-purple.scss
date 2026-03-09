@@ -55,7 +55,7 @@ https://github.com/ahmadawais/shades-of-purple-vscode
 
 	--bg1:#F6F4FF;
 	--bg2:#EEEBFF;
-	--bg3:#E6E2FF;
+	--bg3: color-mix(in srgb, var(--bg2), #000 8%);
 
 	--ui1:#D1CAFF;
 	--ui2:#B8ADFF;
@@ -65,15 +65,13 @@ https://github.com/ahmadawais/shades-of-purple-vscode
 	--tx2:#6A45FD;
 	--tx3:#8A6CFD;
 
-	--ax1: var(--color-purple);
-	--ax2: #6B3DDE;
-	--ax3: #5C2EFD;
+	--ax1: var(--color-yellow);
+	--ax2: color-mix(in srgb, var(--color-yellow), #000 15%);
+	--ax3: color-mix(in srgb, var(--color-yellow), #000 30%);
 
-	--sp1: #FFFFFF;
-
-	--blockquote-border-color: var(--color-purple);
-	--link-color: var(--color-purple);
-	--link-color-hover: var(--color-pink);
+	--blockquote-border-color: color-mix(in srgb, var(--color-yellow), #000 20%);
+	--link-color: color-mix(in srgb, var(--color-yellow), #000 30%);
+	--link-color-hover: var(--color-orange);
 	--active-line-bg: rgba(184, 173, 255, 0.15);
 
 	--hl1:rgba(184, 173, 255, 0.5);
@@ -95,7 +93,7 @@ https://github.com/ahmadawais/shades-of-purple-vscode
 
 	--bg1:#2D2B55;
 	--bg2:#222244;
-	--bg3:#1E1E3F;
+	--bg3: color-mix(in srgb, var(--bg2), #fff 12%);
 
 	--ui1:#66557b;
 	--ui2:#3E3C6D;
@@ -105,9 +103,9 @@ https://github.com/ahmadawais/shades-of-purple-vscode
 	--tx2:#A599E9;
 	--tx3:#8175BF;
 
-	--ax1: var(--color-pink);
-	--ax2: var(--color-yellow);
-	--ax3: var(--color-darkpink);
+	--ax1: var(--color-yellow);
+	--ax2: color-mix(in srgb, var(--color-yellow), #000 10%);
+	--ax3: color-mix(in srgb, var(--color-yellow), #000 20%);
 
 	--sp1: #1E1E3F;
 
