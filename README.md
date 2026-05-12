@@ -114,7 +114,6 @@ Most plugins work well with Minimal, but the following plugins have received spe
 - [Git](https://github.com/denolehov/obsidian-git)
 - [Hider](https://github.com/kepano/obsidian-hider)
 - [Kanban](https://github.com/mgmeyers/obsidian-kanban)
-- [Leaflet](https://github.com/valentine195/obsidian-leaflet-plugin) for maps
 - [Outliner](https://github.com/vslinko/obsidian-outliner)
 - [QuickAdd](https://github.com/chhoumann/quickadd)
 
@@ -266,8 +265,6 @@ Plugin authors and developers can add support for Minimal theme by submitting a 
 **Set up**
 
 ```
-sudo gem install sass
-npm install -g grunt-cli
 npm install
 ```
 
@@ -278,10 +275,11 @@ To build directly into your Obsidian vault rename `.env.example` to `.env` and u
 **To run**
 
 ```
-npx grunt
+npm run dev    # watch and rebuild on changes
+npm run build  # one-off build
 ```
 
-This builds two files, the `obsidian.css` distribution file (for the community themes store) which is minified and also copied to your vault for live reload, and the `Minimal.css` file which is an unminified copy saved to the project root.
+This builds two files: `theme.css`, the minified distribution file (for the community themes store) which is also copied to your vault for live reload, and `Minimal.css`, an unminified copy saved to the project root.
 
 ## License
 
