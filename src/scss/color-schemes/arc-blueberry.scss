@@ -1,0 +1,67 @@
+/*
+Arc Blueberry
+https://github.com/beardedbear/beardedtheme
+*/
+
+.theme-dark.minimal-arc-blueberry-dark {
+	--color-red-rgb: 227,85,53;
+	--color-orange-rgb: 255,149,92;
+	--color-yellow-rgb: 234,205,97;
+	--color-green-rgb: 60,236,133;
+	--color-cyan-rgb: 34,236,219;
+	--color-blue-rgb: 105,195,255;
+	--color-purple-rgb: 243,140,236;
+	--color-pink-rgb: 183,138,255;
+
+	--color-red: #E35535;
+	--color-orange: #FF955C;
+	--color-yellow: #EACD61;
+	--color-green: #3CEC85;
+	--color-cyan: #22ECDB;
+	--color-blue: #69C3FF;
+	--color-purple: #F38CEC;
+	--color-pink: #B78AFF;
+}
+
+.theme-dark.minimal-arc-blueberry-dark {
+	--base-h: 228;
+	--base-s: 33%;
+	--base-l: 10%;
+
+	--accent-h: 220;
+	--accent-s: 60%;
+	--accent-l: 73%;
+
+	--bg1: #111422;
+	--bg2: #0D101B;
+	--bg3: #1A1E33;
+
+	--ui1: #15192B;
+	--ui2: #2B3255;
+	--ui3: #3C4776;
+
+	--tx1: #EAF0FA;
+	--tx2: #BCC1DC;
+	--tx3: #9AA2CB;
+
+	--ax1: color-mix(in srgb, var(--color-blue), #000 20%);
+	--ax2: color-mix(in srgb, var(--color-blue), #000 10%);
+	--ax3: #8EB0E6;
+
+	--sp1: #0B0E18;
+
+	--blockquote-border-color: var(--color-blue);
+	--link-color: var(--color-blue);
+	--link-color-hover: var(--color-cyan);
+	--active-line-bg: rgba(142, 176, 230, 0.06);
+
+	--hl1: rgba(142, 176, 230, 0.3);
+	--hl2: rgba(234, 205, 97, 0.35);
+}
+
+.theme-dark.minimal-arc-blueberry-dark.minimal-dark-black {
+	--bg1: #0D101B;
+	--bg3: #111422;
+	--divider-color: #07080E;
+	--tab-outline-color: #07080E;
+}
