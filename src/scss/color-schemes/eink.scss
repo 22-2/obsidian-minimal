@@ -48,7 +48,7 @@
 	}
 
 	&.is-focused .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
-	&.labeled-nav .mod-left-split .mod-top .workspace-tab-header.is-active,
+	&.labeled-nav .mod-primary-split .mod-top .workspace-tab-header.is-active,
 	&.tabs-modern {
 		--minimal-tab-text-color-active: var(--bg1);
 		--tab-text-color-focused: var(--bg1);
@@ -82,11 +82,11 @@
 		}
 	}
 	&.tabs-modern .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active,
-	&.labeled-nav .mod-left-split .mod-top .workspace-tab-header.is-active:not(:hover) {
+	&.labeled-nav .mod-primary-split .mod-top .workspace-tab-header.is-active:not(:hover) {
 		background-color: var(--tx1);
 	}
-	&.labeled-nav .mod-left-split .mod-top .workspace-tab-header.is-active,
-	&.labeled-nav .mod-left-split .mod-top .workspace-tab-header:hover,
+	&.labeled-nav .mod-primary-split .mod-top .workspace-tab-header.is-active,
+	&.labeled-nav .mod-primary-split .mod-top .workspace-tab-header:hover,
 	&.is-focused.tabs-modern .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title,
 	#calendar-container .reset-button:hover,
 	.status-bar .plugin-sync:hover .sync-status-icon.mod-success,
@@ -155,9 +155,9 @@
 
 .theme-light.minimal-eink-light.minimal-light-contrast .titlebar,
 .theme-light.minimal-eink-light.minimal-light-contrast.minimal-status-off .status-bar,
-.theme-light.minimal-eink-light.minimal-light-contrast .workspace-drawer.mod-left,
-.theme-light.minimal-eink-light.minimal-light-contrast .mod-left-split,
-.theme-light.minimal-eink-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
+.theme-light.minimal-eink-light.minimal-light-contrast .workspace-drawer.mod-primary,
+.theme-light.minimal-eink-light.minimal-light-contrast .mod-primary-split,
+.theme-light.minimal-eink-light.minimal-light-contrast .workspace-ribbon.mod-primary:not(.is-collapsed),
 .theme-light.minimal-eink-light.minimal-light-contrast .theme-dark,
 .theme-dark.minimal-eink-dark {
 	--base-h:0;

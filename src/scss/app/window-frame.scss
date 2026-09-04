@@ -3,7 +3,7 @@ body.window-title-off .titlebar-text {
   display:none;
 }
 
-.titlebar-button-container.mod-right {
+.titlebar-button-container.mod-secondary {
 	background-color: transparent !important;
 }
 
@@ -12,15 +12,15 @@ body.window-title-off .titlebar-text {
 	--titlebar-background: var(--bg1);
 
 	&.is-focused {
-		.sidebar-toggle-button.mod-right,
-		.workspace-ribbon.mod-left.is-collapsed,
+		.sidebar-toggle-button.mod-secondary,
+		.workspace-ribbon.mod-primary.is-collapsed,
 		.workspace-tabs.mod-top {
 			--titlebar-background-focused: var(--bg1);
 		}
 	}
 
 	&:not(.minimal-dark-tonal):not(.minimal-light-white) {
-		.workspace-ribbon.mod-left:not(.is-collapsed) {
+		.workspace-ribbon.mod-primary:not(.is-collapsed) {
 			--titlebar-background: var(--bg2);
 		}
 	}
@@ -28,7 +28,7 @@ body.window-title-off .titlebar-text {
 
 /* Trying for a smoother animation */
 .mod-macos.is-hidden-frameless:not(.is-popout-window) {
-	.sidebar-toggle-button.mod-right {
+	.sidebar-toggle-button.mod-secondary {
 		right: 0;
 		padding-right: var(--size-4-2);
 	}
@@ -41,7 +41,7 @@ body {
 }
 
 .is-hidden-frameless:not(.colorful-frame) {
-	.mod-left-split {
+	.mod-primary-split {
 		.mod-top .workspace-tab-header-container {
 			--tab-container-background: var(--background-secondary);
 		}

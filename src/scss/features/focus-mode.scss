@@ -2,7 +2,7 @@
 /* MIT License | Copyright (c) Steph Ango (@kepano) */
 
 /* Hide app ribbon */
-.workspace-ribbon.mod-left {
+.workspace-ribbon.mod-primary {
 	border-left:0;
 	transition:none;
 }
@@ -11,16 +11,16 @@
 }
 .minimal-focus-mode {
 
-	&.is-translucent .workspace-ribbon.mod-left.is-collapsed,
-	&.is-translucent .workspace-ribbon.mod-left.is-collapsed:before {
+	&.is-translucent .workspace-ribbon.mod-primary.is-collapsed,
+	&.is-translucent .workspace-ribbon.mod-primary.is-collapsed:before {
 		background-color: var(--background-primary) !important;
 	}
 
 	// Hide ribbon
-	.workspace-ribbon.mod-left {
+	.workspace-ribbon.mod-primary {
 		transition: background-color 0s linear 0s;
 	}
-	.workspace-ribbon.mod-left.is-collapsed {
+	.workspace-ribbon.mod-primary.is-collapsed {
 		border-color: transparent;
 		background-color: var(--background-primary);
 		&:before {
@@ -40,12 +40,12 @@
 			}
 		}
 	}
-	&.borders-title .workspace-ribbon.mod-left.is-collapsed {
+	&.borders-title .workspace-ribbon.mod-primary.is-collapsed {
 		border-right:none;
 	}
 
 	// Hide right sidebar button
-	.mod-root .sidebar-toggle-button.mod-right {
+	.mod-root .sidebar-toggle-button.mod-secondary {
 		opacity: 0;
 		transition: opacity var(--focus-animation-duration) ease-in-out 0.5s;
 	}
@@ -105,7 +105,7 @@
 			--tab-outline-width: 1px;
 			transition: all var(--focus-animation-duration) linear 0.05s;
 
-			.sidebar-toggle-button.mod-right,
+			.sidebar-toggle-button.mod-secondary,
 			.workspace-tab-header-container-inner,
 			.workspace-tab-header-new-tab,
 			.workspace-tab-header-tab-list {

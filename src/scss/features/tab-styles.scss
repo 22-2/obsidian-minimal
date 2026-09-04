@@ -180,17 +180,17 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 }
 
 
-.tabs-modern.sidebar-tabs-wide .mod-right-split,
-.tabs-modern.sidebar-tabs-default .mod-right-split {
+.tabs-modern.sidebar-tabs-wide .mod-secondary-split,
+.tabs-modern.sidebar-tabs-default .mod-secondary-split {
 	--tab-outline-width: 0;
 }
 
 /* Underline */
 .sidebar-tabs-underline {
 
-	&:not(.labeled-nav) .mod-left-split,
-	&.labeled-nav .mod-left-split .workspace-tabs:not(.mod-top),
-	.mod-right-split {
+	&:not(.labeled-nav) .mod-primary-split,
+	&.labeled-nav .mod-primary-split .workspace-tabs:not(.mod-top),
+	.mod-secondary-split {
 
 		.workspace-tab-header-spacer {
 			display: none;
@@ -234,26 +234,26 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 
 /* Sidebar index style */
 .sidebar-tabs-square {
-	.mod-left-split,
-	.mod-right-split {
+	.mod-primary-split,
+	.mod-secondary-split {
 		--tab-radius: 0px;
 	}
 }
 
 .sidebar-tabs-plain-square {
-	.mod-left-split,
-	.mod-right-split {
+	.mod-primary-split,
+	.mod-secondary-split {
 		--tab-radius: 0px;
 	}
 
-	&:not(.labeled-nav) .mod-left-split,
-	&.labeled-nav .mod-left-split .workspace-tabs:not(.mod-top) {
+	&:not(.labeled-nav) .mod-primary-split,
+	&.labeled-nav .mod-primary-split .workspace-tabs:not(.mod-top) {
 		--tab-background-active: var(--background-secondary);
 	}
 
-	&:not(.labeled-nav) .mod-left-split,
-	&.labeled-nav .mod-left-split .workspace-tabs:not(.mod-top),
-	.mod-right-split {
+	&:not(.labeled-nav) .mod-primary-split,
+	&.labeled-nav .mod-primary-split .workspace-tabs:not(.mod-top),
+	.mod-secondary-split {
 		.workspace-tab-header-container {
 			padding-left: 0;
 		}
@@ -281,14 +281,14 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 .sidebar-tabs-square,
 .sidebar-tabs-index {
 
-	&:not(.labeled-nav) .mod-left-split,
-	&.labeled-nav .mod-left-split .workspace-tabs:not(.mod-top) {
+	&:not(.labeled-nav) .mod-primary-split,
+	&.labeled-nav .mod-primary-split .workspace-tabs:not(.mod-top) {
 		--tab-background-active: var(--background-secondary);
 	}
 
-	&:not(.labeled-nav) .mod-left-split,
-	&.labeled-nav .mod-left-split .workspace-tabs:not(.mod-top),
-	.mod-right-split {
+	&:not(.labeled-nav) .mod-primary-split,
+	&.labeled-nav .mod-primary-split .workspace-tabs:not(.mod-top),
+	.mod-secondary-split {
 		.workspace-tab-header-container-inner {
 			padding: 1px var(--size-4-2) 0;
 			margin: 6px 0 calc(var(--tab-outline-width) * -1);
@@ -311,9 +311,9 @@ body:not(.sidebar-tabs-underline):not(.sidebar-tabs-index):not(.sidebar-tabs-squ
 /* Modern Wide */
 .sidebar-tabs-wide {
 
-	&:not(.labeled-nav) .mod-left-split,
-	&.labeled-nav .mod-left-split .workspace-tabs:not(.mod-top),
-	.mod-right-split {
+	&:not(.labeled-nav) .mod-primary-split,
+	&.labeled-nav .mod-primary-split .workspace-tabs:not(.mod-top),
+	.mod-secondary-split {
 		.workspace-tab-header-container-inner {
 			flex-grow: 1;
 			border: 1px solid var(--tab-outline-color);

@@ -5,8 +5,8 @@
 
 	.markdown-source-view,
 	.markdown-preview-view {
-		.image-embed img:not(.link-favicon):not(.emoji):not([width]),
-		img:not(.link-favicon):not(.emoji):not([width]),
+		.image-embed img:not(.link-favicon,.emoji,[width]),
+		img:not(.link-favicon,.emoji,.highlight-swatch,[width]),
 		.external-embed,
 		audio,
 		video {
