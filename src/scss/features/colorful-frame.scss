@@ -59,7 +59,7 @@ body {
 	}
 
 	.titlebar,
-	.workspace-ribbon.mod-left:before,
+	.workspace-ribbon.mod-primary:before,
 	.mod-top .workspace-tab-header-container {
 		--tab-outline-color: var(--frame-outline-color);
 		--tab-divider-color: var(--frame-outline-color);
@@ -77,8 +77,8 @@ body {
 	.workspace-tab-header:not(.is-active),
 	.workspace-tab-header-new-tab,
 	.workspace-tab-header-tab-list,
-	.mod-left-split .mod-top .workspace-tab-header,
-	.mod-right-split .mod-top .workspace-tab-header {
+	.mod-primary-split .mod-top .workspace-tab-header,
+	.mod-secondary-split .mod-top .workspace-tab-header {
 		--background-modifier-hover: var(--frame-outline-color);
 		--icon-color: var(--frame-icon-color);
 		--icon-color-hover: var(--frame-icon-color);
@@ -88,8 +88,8 @@ body {
 		// #todo Remove line below after 1.0.2
 		--icon-color-focus: var(--frame-icon-color);
 	}
-	.mod-right-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
-	.mod-left-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+	.mod-secondary-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+	.mod-primary-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
 		color: var(--frame-icon-color);
 	}
 }
@@ -101,8 +101,8 @@ body {
 
 .colorful-frame.is-hidden-frameless:not(.minimal-focus-mode) {
 	.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
-	.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
-	.workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+	.workspace-split.mod-primary-split > .workspace-leaf-resize-handle,
+	.workspace-split.mod-secondary-split > .workspace-leaf-resize-handle {
 		-webkit-app-region: no-drag;
 		border: 0;
 		z-index: 15;
@@ -118,11 +118,11 @@ body {
 			background: var(--divider-color-hover);
 		}
 	}
-	.workspace-split.mod-right-split > .workspace-leaf-resize-handle:after {
+	.workspace-split.mod-secondary-split > .workspace-leaf-resize-handle:after {
 		left: 0;
 	}
 	.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle:after,
-	.workspace-split.mod-left-split > .workspace-leaf-resize-handle:after {
+	.workspace-split.mod-primary-split > .workspace-leaf-resize-handle:after {
 		right: 0;
 	}
 }

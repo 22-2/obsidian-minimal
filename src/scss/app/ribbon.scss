@@ -29,7 +29,7 @@
 
 body.ribbon-vertical-expand:not(.is-mobile) {
 	--ribbon-width: 0px;
-	.workspace-ribbon.mod-left {
+	.workspace-ribbon.mod-primary {
 		width: 10px;
 		flex-basis: 10px;
 		opacity: 0;
@@ -44,7 +44,7 @@ body.ribbon-vertical-expand:not(.is-mobile) {
 			transition: opacity var(--ribbon-animation-duration) linear 0.3s;
 		}
 	}
-	.workspace-ribbon.mod-left:hover {
+	.workspace-ribbon.mod-primary:hover {
 		width: 44px;
 		opacity: 1;
 		flex-basis: 44px;
@@ -56,16 +56,16 @@ body.ribbon-vertical-expand:not(.is-mobile) {
 
 	}
 	&.labeled-nav {
-		.workspace-ribbon.mod-left ~ .mod-left-split .workspace-tab-header-container {
+		.workspace-ribbon.mod-primary ~ .mod-primary-split .workspace-tab-header-container {
 			margin-left: 0;
 			transition: all var(--ribbon-animation-duration) linear 0.6s;
 		}
-		.workspace-ribbon.mod-left:hover ~ .mod-left-split .workspace-tab-header-container {
+		.workspace-ribbon.mod-primary:hover ~ .mod-primary-split .workspace-tab-header-container {
 			margin-left: 44px;
 			transition: all var(--ribbon-animation-duration) linear;
 		}
 	}
-	.workspace-ribbon.mod-left ~ .mod-left-split {
+	.workspace-ribbon.mod-primary ~ .mod-primary-split {
 		.workspace-tab-container {
 			padding-left: 0px;
 			transition: all var(--ribbon-animation-duration) linear 0.6s;
@@ -74,7 +74,7 @@ body.ribbon-vertical-expand:not(.is-mobile) {
 			transition: all var(--ribbon-animation-duration) linear 0.6s;
 		}
 	}
-	.workspace-ribbon.mod-left:hover ~ .mod-left-split {
+	.workspace-ribbon.mod-primary:hover ~ .mod-primary-split {
 		.workspace-tab-container {
 			padding-left: 44px;
 			transition: all var(--ribbon-animation-duration) linear;
@@ -90,16 +90,16 @@ body.ribbon-vertical-expand:not(.is-mobile) {
 .ribbon-bottom-left-hover-vertical,
 .ribbon-bottom-left-hover {
 
-	.workspace-ribbon.mod-left:before {
+	.workspace-ribbon.mod-primary:before {
 		opacity: 0;
 	}
 	.workspace-ribbon-collapse-btn {
 		display: none;
 	}
-	.workspace-ribbon.mod-right {
+	.workspace-ribbon.mod-secondary {
 		pointer-events: none;
 	}
-	.workspace-ribbon.mod-left {
+	.workspace-ribbon.mod-primary {
 		overflow: visible;
 		border-top: var(--border-width) solid var(--background-modifier-border) !important;
 		border-right: var(--border-width) solid var(--background-modifier-border) !important;
@@ -137,17 +137,17 @@ body.ribbon-vertical-expand:not(.is-mobile) {
 	.side-dock-settings:empty {
 		display: none;
 	}
-	.workspace-ribbon.mod-left .side-dock-ribbon-action {
+	.workspace-ribbon.mod-primary .side-dock-ribbon-action {
 		display: var(--hider-ribbon-display);
 	}
-	.workspace-ribbon.mod-left:hover {
+	.workspace-ribbon.mod-primary:hover {
 		opacity: 1;
 		transition: opacity 0.25s ease-in-out;
 	}
-	.workspace-ribbon.mod-left .workspace-ribbon-collapse-btn {
+	.workspace-ribbon.mod-primary .workspace-ribbon-collapse-btn {
 		opacity: 0;
 	}
-	.workspace-split.mod-left-split {
+	.workspace-split.mod-primary-split {
 		margin: 0;
 	}
 	.workspace-leaf-content .item-list {
@@ -156,7 +156,7 @@ body.ribbon-vertical-expand:not(.is-mobile) {
 }
 
 .ribbon-bottom-left-hover-vertical {
-	.workspace-ribbon.mod-left {
+	.workspace-ribbon.mod-primary {
 		height: auto;
 	}
 	.side-dock-actions {
