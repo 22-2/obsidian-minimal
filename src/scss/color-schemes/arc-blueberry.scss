@@ -40,6 +40,9 @@ https://github.com/beardedbear/beardedtheme
 	--ui2: #2B3255;
 	--ui3: #3C4776;
 
+	// Keep horizontal rules visible without making the shared UI border color heavier.
+	--hr-color: var(--ui2);
+
 	--tx1: #EAF0FA;
 	--tx2: #BCC1DC;
 	--tx3: #9AA2CB;
