@@ -5432,6 +5432,9 @@ https://github.com/beardedbear/beardedtheme
   --ui1: #15192B;
   --ui2: #2B3255;
   --ui3: #3C4776;
+  --hr-color: var(--ui2);
+  --table-border-color: var(--ui2);
+  --table-header-border-color: var(--ui2);
   --tx1: #EAF0FA;
   --tx2: #BCC1DC;
   --tx3: #9AA2CB;
