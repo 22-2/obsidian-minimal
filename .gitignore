@@ -3,3 +3,7 @@
 .sass-cache/*
 .env
 /docs/.obsidian
+/.ci-artifacts/e2e-theme
+/obsidian-e2e-toolkit-assets
+/test-results
+/playwright-report

@@ -1,2 +1,4 @@
 allowBuilds:
   '@parcel/watcher': true
+  electron: true
+  obsidian-e2e-toolkit: true
