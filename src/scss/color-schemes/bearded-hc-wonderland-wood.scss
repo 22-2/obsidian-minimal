@@ -1,0 +1,56 @@
+/*
+Bearded Theme HC Wonderland Wood
+Palette adapted from Bearded Theme (GPL-3.0):
+https://github.com/BeardedBear/bearded-theme
+*/
+
+.theme-dark.minimal-bearded-hc-wonderland-wood-dark {
+	--color-red-rgb: 255,126,112;
+	--color-orange-rgb: 228,167,146;
+	--color-yellow-rgb: 251,231,195;
+	--color-green-rgb: 145,214,167;
+	--color-cyan-rgb: 125,220,191;
+	--color-blue-rgb: 146,180,255;
+	--color-purple-rgb: 222,152,174;
+	--color-pink-rgb: 237,152,203;
+
+	--color-red:#ff7e70;
+	--color-orange:#e4a792;
+	--color-yellow:#fbe7c3;
+	--color-green:#91d6a7;
+	--color-cyan:#7ddcbf;
+	--color-blue:#92b4ff;
+	--color-purple:#de98ae;
+	--color-pink:#ed98cb;
+
+	--base-h:245;
+	--base-s:30%;
+	--base-l:16%;
+
+	--accent-h:39;
+	--accent-s:88%;
+	--accent-l:87%;
+
+	--bg1:#1f1d36;
+	--bg2:#1b192f;
+	--bg3:#6a568973;
+
+	--ui1:#141222;
+	--ui2:#3f3c64;
+	--ui3:#fbe7c3;
+
+	--divider-color:#141222;
+	--tab-outline-color:transparent;
+
+	--tx1:#d3d2e6;
+	--tx2:#b4b1d4;
+	--tx3:color-mix(in srgb, var(--tx2) 85%, var(--bg1));
+	--link-unresolved-opacity:1;
+	--link-unresolved-decoration-style:dashed;
+	--link-unresolved-decoration-color:var(--tx2);
+
+	--hl1:rgba(251,231,195,0.3);
+	--hl2:rgba(255,126,112,0.3);
+
+	--sp1:#1f1d36;
+}

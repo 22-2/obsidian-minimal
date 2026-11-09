@@ -1,0 +1,62 @@
+/*
+One Dark Pro palette adapted from the Visual Studio theme:
+https://github.com/AdrianWilczynski/OneDarkPro
+*/
+
+.theme-dark.minimal-one-dark-pro-dark {
+	--color-red-rgb: 224,108,117;
+	--color-orange-rgb: 209,154,102;
+	--color-yellow-rgb: 229,192,123;
+	--color-green-rgb: 152,195,121;
+	--color-cyan-rgb: 86,182,194;
+	--color-blue-rgb: 97,175,239;
+	--color-purple-rgb: 198,120,221;
+	--color-pink-rgb: 224,108,117;
+
+	--color-red:#e06c75;
+	--color-orange:#d19a66;
+	--color-yellow:#e5c07b;
+	--color-green:#98c379;
+	--color-cyan:#56b6c2;
+	--color-blue:#61afef;
+	--color-purple:#c678dd;
+	--color-pink:#e06c75;
+}
+
+.theme-dark.minimal-one-dark-pro-dark {
+	--base-h:220;
+	--base-s:13%;
+	--base-l:18%;
+
+	--accent-h:207;
+	--accent-s:71%;
+	--accent-l:61%;
+
+	--bg1:#282c34;
+	--bg2:#21252b;
+	--bg3:#2e323a;
+
+	--ui1:#2e323a;
+	--ui2:#353941;
+	--ui3:#3e4249;
+
+	--divider-color:#181a1f;
+	--tab-outline-color:transparent;
+
+	--tx1:#bdbdbd;
+	--tx2:#8c8d90;
+	--tx3:#6e7075;
+
+	--hl1:rgba(84,164,227,0.3);
+	--hl2:rgba(209,154,102,0.3);
+
+	--sp1:#ffffff;
+}
+
+.theme-dark.minimal-one-dark-pro-dark.minimal-dark-black {
+	--base-d:5%;
+
+	--bg3:#282c34;
+	--divider-color:#282c34;
+	--tab-outline-color:transparent;
+}

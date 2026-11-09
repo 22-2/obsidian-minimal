@@ -91,7 +91,7 @@ Controls images, tables and iframes. These settings can also be enabled on a per
 
 ### Preset color schemes
 
-Minimal offers color schemes that can be separately selected for light and dark mode using the [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings) plugin. Color schemes include Dracula, Everforest, Gruvbox, macOS, Nord, Notion, Solarized, and Things. 
+Minimal offers color schemes that can be separately selected for light and dark mode using the [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal-settings) plugin. Color schemes include Dracula, Everforest, Gruvbox, macOS, Nord, One Dark Pro, Bearded Theme variants, Notion, Solarized, and Things.
 
 ![Minimal Theme Settings](/docs/Images/minimal-color-schemes.gif)
 

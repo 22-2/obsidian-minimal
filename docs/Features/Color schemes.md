@@ -13,6 +13,15 @@ You can define separate color schemes for light and dark mode using the [[Minima
 
 - Atom
 - Ayu
+- Bearded Theme Aquarelle Hydrangea
+- Bearded Theme Black & Amethyst Soft
+- Bearded Theme Black & Emerald
+- Bearded Theme Black & Gold
+- Bearded Theme Black & Ruby
+- Bearded Theme Coffee
+- Bearded Theme HC Wonderland Wood
+- Bearded Themanopia (Experimental)
+- Bearded Theme Vivid Purple
 - Catppuccin
 - Dracula
 - [[E-ink mode|E-ink (beta)]]
@@ -21,6 +30,7 @@ You can define separate color schemes for light and dark mode using the [[Minima
 - Gruvbox
 - macOS
 - Nord
+- One Dark Pro
 - Rosé Pine
 - Sky
 - Solarized

@@ -1,0 +1,56 @@
+/*
+Bearded Theme Black & Amethyst Soft
+Palette adapted from Bearded Theme (GPL-3.0):
+https://github.com/BeardedBear/bearded-theme
+*/
+
+.theme-dark.minimal-bearded-black-amethyst-soft-dark {
+	--color-red-rgb: 227,85,53;
+	--color-orange-rgb: 212,119,12;
+	--color-yellow-rgb: 199,145,12;
+	--color-green-rgb: 0,168,132;
+	--color-cyan-rgb: 56,199,189;
+	--color-blue-rgb: 17,183,212;
+	--color-purple-rgb: 168,95,241;
+	--color-pink-rgb: 240,82,209;
+
+	--color-red:#e35535;
+	--color-orange:#d4770c;
+	--color-yellow:#c7910c;
+	--color-green:#00a884;
+	--color-cyan:#38c7bd;
+	--color-blue:#11b7d4;
+	--color-purple:#a85ff1;
+	--color-pink:#f052d1;
+
+	--base-h:244;
+	--base-s:27%;
+	--base-l:12%;
+
+	--accent-h:270;
+	--accent-s:84%;
+	--accent-l:66%;
+
+	--bg1:#171626;
+	--bg2:#13121f;
+	--bg3:#35325673;
+
+	--ui1:#0b0b13;
+	--ui2:#373553;
+	--ui3:#a85ff1;
+
+	--divider-color:#0b0b13;
+	--tab-outline-color:transparent;
+
+	--tx1:#c6c5dc;
+	--tx2:#a7a5c9;
+	--tx3:color-mix(in srgb, var(--tx2) 85%, var(--bg1));
+	--link-unresolved-opacity:1;
+	--link-unresolved-decoration-style:dashed;
+	--link-unresolved-decoration-color:var(--tx2);
+
+	--hl1:rgba(168,95,241,0.3);
+	--hl2:rgba(199,145,12,0.3);
+
+	--sp1:#171626;
+}

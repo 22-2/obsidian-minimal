@@ -1,0 +1,56 @@
+/*
+Bearded Theme Aquarelle Hydrangea
+Palette adapted from Bearded Theme (GPL-3.0):
+https://github.com/BeardedBear/bearded-theme
+*/
+
+.theme-dark.minimal-bearded-aquarelle-hydrangea-dark {
+	--color-red-rgb: 232,122,112;
+	--color-orange-rgb: 240,187,162;
+	--color-yellow-rgb: 243,225,172;
+	--color-green-rgb: 170,218,119;
+	--color-cyan-rgb: 169,237,217;
+	--color-blue-rgb: 115,190,233;
+	--color-purple-rgb: 188,177,241;
+	--color-pink-rgb: 243,170,188;
+
+	--color-red:#e87a70;
+	--color-orange:#f0bba2;
+	--color-yellow:#f3e1ac;
+	--color-green:#aada77;
+	--color-cyan:#a9edd9;
+	--color-blue:#73bee9;
+	--color-purple:#bcb1f1;
+	--color-pink:#f3aabc;
+
+	--base-h:228;
+	--base-s:28%;
+	--base-l:18%;
+
+	--accent-h:219;
+	--accent-s:84%;
+	--accent-l:67%;
+
+	--bg1:#22273c;
+	--bg2:#1e2235;
+	--bg3:#3d476d73;
+
+	--ui1:#171a28;
+	--ui2:#424969;
+	--ui3:#6394f1;
+
+	--divider-color:#171a28;
+	--tab-outline-color:transparent;
+
+	--tx1:#dadde9;
+	--tx2:#b9bfd7;
+	--tx3:color-mix(in srgb, var(--tx2) 85%, var(--bg1));
+	--link-unresolved-opacity:1;
+	--link-unresolved-decoration-style:dashed;
+	--link-unresolved-decoration-color:var(--tx2);
+
+	--hl1:rgba(99,148,241,0.3);
+	--hl2:rgba(243,225,172,0.3);
+
+	--sp1:#22273c;
+}

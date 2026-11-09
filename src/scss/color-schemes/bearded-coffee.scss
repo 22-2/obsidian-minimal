@@ -1,0 +1,56 @@
+/*
+Bearded Theme Coffee
+Palette adapted from Bearded Theme (GPL-3.0):
+https://github.com/BeardedBear/bearded-theme
+*/
+
+.theme-dark.minimal-bearded-coffee-dark {
+	--color-red-rgb: 242,67,67;
+	--color-orange-rgb: 255,167,119;
+	--color-yellow-rgb: 247,217,121;
+	--color-green-rgb: 148,214,82;
+	--color-cyan-rgb: 60,234,168;
+	--color-blue-rgb: 110,221,214;
+	--color-purple-rgb: 153,145,241;
+	--color-pink-rgb: 228,128,173;
+
+	--color-red:#f24343;
+	--color-orange:#ffa777;
+	--color-yellow:#f7d979;
+	--color-green:#94d652;
+	--color-cyan:#3ceaa8;
+	--color-blue:#6eddd6;
+	--color-purple:#9991f1;
+	--color-pink:#e480ad;
+
+	--base-h:10;
+	--base-s:8%;
+	--base-l:15%;
+
+	--accent-h:13;
+	--accent-s:80%;
+	--accent-l:70%;
+
+	--bg1:#292423;
+	--bg2:#231f1e;
+	--bg3:#6f575073;
+
+	--ui1:#181615;
+	--ui2:#4e4b4a;
+	--ui3:#f09177;
+
+	--divider-color:#181615;
+	--tab-outline-color:transparent;
+
+	--tx1:#ceb5b0;
+	--tx2:#beaba7;
+	--tx3:color-mix(in srgb, var(--tx2) 85%, var(--bg1));
+	--link-unresolved-opacity:1;
+	--link-unresolved-decoration-style:dashed;
+	--link-unresolved-decoration-color:var(--tx2);
+
+	--hl1:rgba(240,145,119,0.3);
+	--hl2:rgba(247,217,121,0.3);
+
+	--sp1:#292423;
+}

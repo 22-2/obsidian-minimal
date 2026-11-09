@@ -1,0 +1,56 @@
+/*
+Bearded Theme Vivid Purple
+Palette adapted from Bearded Theme (GPL-3.0):
+https://github.com/BeardedBear/bearded-theme
+*/
+
+.theme-dark.minimal-bearded-vivid-purple-dark {
+	--color-red-rgb: 214,44,44;
+	--color-orange-rgb: 255,113,53;
+	--color-yellow-rgb: 255,182,56;
+	--color-green-rgb: 66,221,118;
+	--color-cyan-rgb: 20,229,212;
+	--color-blue-rgb: 40,169,255;
+	--color-purple-rgb: 169,94,255;
+	--color-pink-rgb: 255,71,141;
+
+	--color-red:#d62c2c;
+	--color-orange:#ff7135;
+	--color-yellow:#ffb638;
+	--color-green:#42dd76;
+	--color-cyan:#14e5d4;
+	--color-blue:#28a9ff;
+	--color-purple:#a95eff;
+	--color-pink:#ff478d;
+
+	--base-h:251;
+	--base-s:48%;
+	--base-l:13%;
+
+	--accent-h:258;
+	--accent-s:100%;
+	--accent-l:75%;
+
+	--bg1:#171131;
+	--bg2:#130e29;
+	--bg3:#32256a73;
+
+	--ui1:#0c091a;
+	--ui2:#342866;
+	--ui3:#a680ff;
+
+	--divider-color:#0c091a;
+	--tab-outline-color:transparent;
+
+	--tx1:#c7bfe8;
+	--tx2:#a699db;
+	--tx3:color-mix(in srgb, var(--tx2) 85%, var(--bg1));
+	--link-unresolved-opacity:1;
+	--link-unresolved-decoration-style:dashed;
+	--link-unresolved-decoration-color:var(--tx2);
+
+	--hl1:rgba(166,128,255,0.3);
+	--hl2:rgba(255,182,56,0.3);
+
+	--sp1:#171131;
+}

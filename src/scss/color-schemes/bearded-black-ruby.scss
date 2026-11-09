@@ -1,0 +1,56 @@
+/*
+Bearded Theme Black & Ruby
+Palette adapted from Bearded Theme (GPL-3.0):
+https://github.com/BeardedBear/bearded-theme
+*/
+
+.theme-dark.minimal-bearded-black-ruby-dark {
+	--color-red-rgb: 227,85,53;
+	--color-orange-rgb: 212,119,12;
+	--color-yellow-rgb: 199,145,12;
+	--color-green-rgb: 0,168,132;
+	--color-cyan-rgb: 56,199,189;
+	--color-blue-rgb: 17,183,212;
+	--color-purple-rgb: 212,110,192;
+	--color-pink-rgb: 198,47,82;
+
+	--color-red:#e35535;
+	--color-orange:#d4770c;
+	--color-yellow:#c7910c;
+	--color-green:#00a884;
+	--color-cyan:#38c7bd;
+	--color-blue:#11b7d4;
+	--color-purple:#d46ec0;
+	--color-pink:#c62f52;
+
+	--base-h:214;
+	--base-s:17%;
+	--base-l:8%;
+
+	--accent-h:346;
+	--accent-s:62%;
+	--accent-l:64%;
+
+	--bg1:#111418;
+	--bg2:#0c0f11;
+	--bg3:#31384573;
+
+	--ui1:#040506;
+	--ui2:#343a42;
+	--ui3:#e2768f;
+
+	--divider-color:#040506;
+	--tab-outline-color:transparent;
+
+	--tx1:#bec6d0;
+	--tx2:#a0acbb;
+	--tx3:color-mix(in srgb, var(--tx2) 85%, var(--bg1));
+	--link-unresolved-opacity:1;
+	--link-unresolved-decoration-style:dashed;
+	--link-unresolved-decoration-color:var(--tx2);
+
+	--hl1:rgba(198,47,82,0.3);
+	--hl2:rgba(199,145,12,0.3);
+
+	--sp1:#111418;
+}

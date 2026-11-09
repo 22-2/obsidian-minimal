@@ -1,0 +1,56 @@
+/*
+Bearded Themanopia (Experimental)
+Palette adapted from Bearded Theme (GPL-3.0):
+https://github.com/BeardedBear/bearded-theme
+*/
+
+.theme-dark.minimal-bearded-themanopia-dark {
+	--color-red-rgb: 255,91,130;
+	--color-orange-rgb: 255,175,134;
+	--color-yellow-rgb: 245,222,193;
+	--color-green-rgb: 56,255,161;
+	--color-cyan-rgb: 74,224,209;
+	--color-blue-rgb: 50,167,255;
+	--color-purple-rgb: 95,119,220;
+	--color-pink-rgb: 255,151,191;
+
+	--color-red:#ff5b82;
+	--color-orange:#ffaf86;
+	--color-yellow:#f5dec1;
+	--color-green:#38ffa1;
+	--color-cyan:#4ae0d1;
+	--color-blue:#32a7ff;
+	--color-purple:#5f77dc;
+	--color-pink:#ff97bf;
+
+	--base-h:226;
+	--base-s:19%;
+	--base-l:13%;
+
+	--accent-h:250;
+	--accent-s:71%;
+	--accent-l:73%;
+
+	--bg1:#1b1e28;
+	--bg2:#161921;
+	--bg3:#3a405573;
+
+	--ui1:#0f1016;
+	--ui2:#3d4252;
+	--ui3:#9887eb;
+
+	--divider-color:#0f1016;
+	--tab-outline-color:transparent;
+
+	--tx1:#ccd0dc;
+	--tx2:#aeb4c7;
+	--tx3:color-mix(in srgb, var(--tx2) 85%, var(--bg1));
+	--link-unresolved-opacity:1;
+	--link-unresolved-decoration-style:dashed;
+	--link-unresolved-decoration-color:var(--tx2);
+
+	--hl1:rgba(152,135,235,0.3);
+	--hl2:rgba(245,222,193,0.3);
+
+	--sp1:#1b1e28;
+}
